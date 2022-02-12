@@ -1,32 +1,48 @@
-### API Reference
+## Page three 3
 
-- [Configuration Options](https://auth0.github.io/nextjs-auth0/modules/config.html)
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-**Server-side methods**:
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
 
-- [handleAuth](https://auth0.github.io/nextjs-auth0/modules/handlers_auth.html)
-- [handleLogin](https://auth0.github.io/nextjs-auth0/modules/handlers_login.html#handlelogin)
-- [handleCallback](https://auth0.github.io/nextjs-auth0/modules/handlers_callback.html)
-- [handleLogout](https://auth0.github.io/nextjs-auth0/modules/handlers_logout.html)
-- [handleProfile](https://auth0.github.io/nextjs-auth0/modules/handlers_profile.html)
-- [withApiAuthRequired](https://auth0.github.io/nextjs-auth0/modules/helpers_with_api_auth_required.html)
-- [withPageAuthRequired](https://auth0.github.io/nextjs-auth0/modules/helpers_with_page_auth_required.html#withpageauthrequired)
-- [getSession](https://auth0.github.io/nextjs-auth0/modules/session_get_session.html)
-- [getAccessToken](https://auth0.github.io/nextjs-auth0/modules/session_get_access_token.html)
-- [initAuth0](https://auth0.github.io/nextjs-auth0/modules/instance.html)
+```
+interface FormData {
+    hello: string;
+    isWorking: boolean | "Probably";
+}
 
-**Client-side methods/components**:
+const { submit } = useWeb3forms<FormData>({
+    apikey: "YOUR_ACCESS_KEY_HERE",
+    onSuccess: (successMessage, data) => {
+      console.log(successMessage, data)
+    },
+    onError: (errorMessage, data) => {
+      console.log(errorMessage, data)
+    },
+});
+```
 
-- [UserProvider](https://auth0.github.io/nextjs-auth0/modules/frontend_use_user.html#userprovider)
-- [useUser](https://auth0.github.io/nextjs-auth0/modules/frontend_use_user.html)
-- [withPageAuthRequired](https://auth0.github.io/nextjs-auth0/modules/frontend_with_page_auth_required.html)
+### NPM
 
-Visit the auto-generated [API Docs](https://auth0.github.io/nextjs-auth0/) for more details.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
 
-### Cookies and Security
+### Yarn
 
-All cookies will be set to `HttpOnly, SameSite=Lax` and will be set to `Secure` if the application's `AUTH0_BASE_URL` is `https`.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
 
-The `HttpOnly` setting will make sure that client-side JavaScript is unable to access the cookie to reduce the attack surface of [XSS attacks](https://auth0.com/blog/developers-guide-to-common-vulnerabilities-and-how-to-prevent-them/#Cross-Site-Scripting--XSS-).
+## Hello world
 
-The `SameSite=Lax` setting will help mitigate CSRF attacks. Learn more about SameSite by reading the ["Upcoming Browser Behavior Changes: What Developers Need to Know"](https://auth0.com/blog/browser-behavior-changes-what-developers-need-to-know/) blog post.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+### Tables
+
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
+
+---
