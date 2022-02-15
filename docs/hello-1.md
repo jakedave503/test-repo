@@ -25,7 +25,7 @@
 
 ## Tooltips
 
-Show tooltips <Icons.CheckCircle /> in docs
+Show tooltips <Icons.CheckCircle className="inline-block" /> in docs
 
 <Tooltip content="Hi there, nice to meet you">
   Hover me
