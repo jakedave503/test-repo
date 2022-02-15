@@ -37,3 +37,6 @@
      {title: "How react inside markdown?", content: "Thanks to MDX"},
 ]}           
 />
+
+## Sandpack
+<Sandpack template="react" />;
