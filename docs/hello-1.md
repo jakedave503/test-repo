@@ -25,6 +25,8 @@
 
 ## Tooltips
 
+Show tooltips <Icons.CheckCircle /> in docs
+
 <Tooltip content="Hi there, nice to meet you">
   Hover me
 </Tooltip>
