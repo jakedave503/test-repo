@@ -40,4 +40,20 @@
 
 ## Sandpack
 
-<Sandpack template="react" />;
+<Sandpack
+  template="react"
+  files={{
+    "/App.js": `import Rm from 'react-markdown'
+export default function App() {
+  return (<Rm>Hello *world*. **Wassup**</Rm>)
+}`,
+  }}
+  customSetup={{
+    dependencies: {
+      react: "17.0.2",
+      "react-dom": "17.0.2",
+      "react-scripts": "4.0.0",
+      "react-markdown": "8.0.0"
+    },
+  }}
+/>
