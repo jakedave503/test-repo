@@ -40,14 +40,12 @@
 
 ## Embeds
 
-<Embed url="https://tally.so/embed/w4x9Bw?alignLeft=1&hideTitle=1&transparentBackground=1" />
-
 <iframe
   src="https://tally.so/embed/w4x9Bw?alignLeft=1&hideTitle=1&transparentBackground=1"
   width="100%"
   height="500"
   frameborder="0"
-  class="rounded p-4"
+  className="rounded p-4"
   marginheight="0"
   marginwidth="0"
   title="Request for Integration">
