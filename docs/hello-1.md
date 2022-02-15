@@ -18,6 +18,9 @@
 
 <Callout type="danger">
   This is a **danger callout**
+  <Tooltip content="Hi there, nice to meet you">
+    Hover me
+  </Tooltip>
 </Callout>
 
 ## Tooltips
