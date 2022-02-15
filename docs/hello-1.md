@@ -44,8 +44,14 @@
   template="react"
   files={{
     "/App.js": `import Rm from 'react-markdown'
+import {Tooltip} from 'react-tiny-tooltip'
 export default function App() {
-  return (<Rm>Hello *world*. **Wassup**</Rm>)
+  return (
+    <div>
+          <Rm>Hello *world*. **Wassup**</Rm>
+          <Tooltip content="Hey there, you can use me in docs too without any config">Hover me 🙌</Tooltip>
+    </div>
+  )
 }`,
   }}
   customSetup={{
@@ -53,7 +59,9 @@ export default function App() {
       react: "17.0.2",
       "react-dom": "17.0.2",
       "react-scripts": "4.0.0",
-      "react-markdown": "8.0.0"
+      "react-markdown": "8.0.0",
+      "react-tiny-tooltip": "*"
     },
   }}
 />
+
