@@ -38,6 +38,10 @@
 ]}           
 />
 
+## Embeds
+
+<iframe src="https://paperclip.pagely.site" />
+
 ## Sandpack
 
 <Sandpack
@@ -64,4 +68,3 @@ export default function App() {
     },
   }}
 />
-
