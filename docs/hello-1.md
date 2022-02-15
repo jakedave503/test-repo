@@ -41,7 +41,7 @@
 ## Embeds
 
 <iframe
-  src="https://tally.so/embed/w4x9Bw?alignLeft=1&hideTitle=1&transparentBackground=1"
+  src="https://tally.so/embed/w4x9Bw?alignLeft=1&hideTitle=1"
   width="100%"
   height="500"
   frameborder="0"
@@ -50,10 +50,6 @@
   marginwidth="0"
   title="Request for Integration">
 </iframe>
-
-
-Regular `iframe` tag  
-<iframe src="https://tally.so/embed/w4x9Bw?alignLeft=1&hideTitle=1&transparentBackground=1" />
 
 ## Sandpack
 
