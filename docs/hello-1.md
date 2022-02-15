@@ -49,7 +49,7 @@ export default function App() {
   return (
     <div>
           <Rm>Hello *world*. **Wassup**</Rm>
-          <Tooltip content="Hey there, you can use me in docs too without any config">Hover me 🙌</Tooltip>
+          <Tooltip content="Hey there">Hover me 🙌</Tooltip>
     </div>
   )
 }`,
