@@ -77,3 +77,7 @@ export default function App() {
     },
   }}
 />
+
+## Valid jsx?
+
+<button onClick={() => alert('button clicked!')}>Click me!</button>
