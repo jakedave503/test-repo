@@ -84,7 +84,7 @@ export default function App() {
 
   <span
     style={{
-      backgroundColor: color,
+      backgroundColor: '#73e9c1',
       borderRadius: '20px',
       color: '#fff',
       padding: '10px',
