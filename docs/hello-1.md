@@ -90,6 +90,7 @@ export default function App() {
       padding: '10px',
       cursor: 'pointer',
     }}
+    className="not-prose"
     onClick={() => {
       alert(`You clicked me!`)
     }}>
