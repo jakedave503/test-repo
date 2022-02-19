@@ -38,18 +38,9 @@
 ]}           
 />
 
-## Embeds
+## Images
 
-<iframe
-  src="https://tally.so/embed/w4x9Bw?alignLeft=1&hideTitle=1"
-  width="100%"
-  height="500"
-  frameborder="0"
-  className="rounded p-4"
-  marginheight="0"
-  marginwidth="0"
-  title="Request for Integration">
-</iframe>
+![image](https://user-images.githubusercontent.com/85922663/154807596-88e526dd-46d0-439d-8a5e-0464e09f3e2a.png)
 
 ## Sandpack
 
