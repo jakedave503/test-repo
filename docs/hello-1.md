@@ -87,3 +87,14 @@ export default function App() {
     }}>
     Hello from a custom component. Btw, click me!
   </span>
+
+## Grids
+
+<Grid
+  features={[
+    {title: "Introduction", description: "Get started with Hyperdocs and build your first docs site", color: "blue"},
+    {title: "Quickstart", description: "Create your first documentation site in less than a minute", color: "green"},
+    {title: "How it works", description: "How Hyperdocs works behind the scenes", color: "teal"},
+    {title: "Migration guide", description: "Move your docs site to Hyperdocs and simplify your docs setup", color: "gray"}
+  ]}
+/>
