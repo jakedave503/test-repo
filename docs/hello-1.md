@@ -30,13 +30,9 @@
 ## Accordion
 
 <Accordion
-  values={[
-     {title: "Click me", content: "And **I** `will` be visible"},
-     {title: "Is this free", content: "Yes! everything is absolutely free"},
-     {title: "Hello world", content: "World hello"},
-     {title: "How react inside markdown?", content: "Thanks to MDX"},
-]}           
-/>
+  title="Hi there">
+  Hello world 👋
+</Accordion>
 
 ## Images
 
