@@ -1,7 +1,0 @@
-- GETTING STARTED
-hello-4.md
-hello-3.md
-
-- GET STARTED WITH HYPERDOCS
-hello-2.md
-hello-1.md
