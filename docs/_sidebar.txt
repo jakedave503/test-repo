@@ -1,22 +1,7 @@
-- INTRO
-introduction.md
-getting-started.md
-how-hyperdocs-works.md
+- GETTING STARTED
+hello-4.md
+hello-3.md
 
-- VS OTHERS
-comparison.md
-vs-docusaurus.md
-vs-gitbook.md
-
-- USAGE
-components.md
-custom-domains.md
-cli.md
-some-important-points.md
-feedbacks.md
-why-web3forms.md
-homepage.md
-plugins.md
-themes.md
-showcase.md
-footer.md
+- API REFERENCE
+hello-2.md
+hello-1.md
